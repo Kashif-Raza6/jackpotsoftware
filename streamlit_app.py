@@ -48,7 +48,7 @@ if uploaded_file is not None:
     query = "What is the Study Background and experience of the candidate?"
     result= index.query(query)
 
-    chat_model = ChatOpenAI(temperature=0, model='gpt-3.5-turbo')
+    chat_model = ChatOpenAI(temperature=0, model_name='gpt-3.5-turbo')
 
     instructions = """
     You will be given a sentence which include the study background and experience of the candidate, Extract the
