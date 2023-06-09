@@ -1,6 +1,9 @@
 streamlit
 openai
 langchain
-google-search-results
 chromadb
 tiktoken
+selenium
+webdriver_manager
+parsel
+beautifulsoup4
