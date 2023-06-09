@@ -9,7 +9,8 @@ from langchain.chat_models import ChatOpenAI
 from selenium_solution import selenium_scrape
 from serpapi_solution import serpapi_scrape
 import pandas as pd
-load_dotenv()
+
+OPENAI_API_KEY = st.secrets["OpenAI_API_Key"]
 
 st.markdown("""
 <style>
