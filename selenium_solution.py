@@ -9,7 +9,7 @@ import re
 
 
 def scroll_page(url):
-    service = Service(executable_path="chromedriver.exe")
+    service = Service(executable_path="chromedriver")
 
     options = webdriver.ChromeOptions()
     options.headless = True
