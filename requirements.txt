@@ -7,4 +7,4 @@ selenium
 webdriver_manager
 parsel
 beautifulsoup4
-google-serp-api
+google-search-results
