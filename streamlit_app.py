@@ -10,7 +10,7 @@ from selenium_solution import selenium_scrape
 from serpapi_solution import serpapi_scrape
 import pandas as pd
 
-OPENAI_API_KEY = st.secrets["OpenAI_API_Key"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 st.markdown("""
 <style>
